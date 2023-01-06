@@ -30,6 +30,8 @@ SECRET_KEY = 'secret_token_hash'
 *Including .env file in project sake of simplicity
 ```
 ## Endpoints
+User will get token once successfully logged in then after,
+Every request should contains `Bearer token in Authorization header` in order to access further resources, Unauthorized user won't access any endpoint except register
 
 | API Endpoint | Description |
 | ------ | ------ |
